@@ -1,0 +1,286 @@
+body {
+	background: url(../images/hip-square.png);
+}
+
+nav {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	background-color: white;
+	position: relative;
+	top: 0px;
+	padding: 20px;
+	height: 28px;
+	width: 960px;
+	text-align: right;
+	border-bottom: 1px solid lightgray;
+	margin-bottom: 30px;
+}
+
+h1 {
+	color: white;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-weight: 500;
+	font-size: 28px;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-weight: 500;
+	font-size: 24px;
+}
+
+h3 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+header {
+	float: left;
+	background-color: #4aaaa5;
+	padding: 20px 35px 20px 35px;
+	text-align: center;
+	margin-left: 60px;
+	position: absolute;
+	top: 0px;
+	height: 28px;
+}
+
+footer {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-color: #666666;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: #dddddd;
+	bottom: 0px;
+	left: 0px;
+	font-size: 14px;
+	clear: both;
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+}
+
+a.index {
+	text-decoration: none;
+	color: #888888;
+}
+
+a.portfolio {
+	text-decoration: none;
+	color: white;
+}
+
+a.index:hover {
+	color: #4aaaa5;
+	transition: all .3s;
+}
+
+a.portfolio:hover {
+	color: rebeccapurple;
+	transition: all .3s;
+}
+
+.container {
+	position: relative;
+	top: 10px;
+}
+
+.container2 {
+	position: relative;
+	bottom: 192px;
+	left: 303px;
+}
+
+.container3 {
+	position: relative;
+	bottom: 165px;
+}
+
+.container4 {
+	position: relative;
+	bottom: 366px;
+	left: 303px;
+}
+
+.container5 {
+	position: relative;
+	bottom: 339px;
+}
+
+a.active {
+	color: #4aaaa5;
+}
+
+a.active:hover {
+	color: lightgray;
+}
+
+.navbar {
+	color: lightgray;
+	text-align: right;
+	width: 960px;
+}
+
+.navbar-outer {
+	width: 100%;
+	border-bottom: 2px solid #cccccc;
+}
+
+.line-height {
+	line-height: 200%;
+}
+
+
+.icons {
+	padding: 4px;
+}
+
+.icons:hover {
+	opacity: 0.6;
+	transition: all 0.3s;
+}
+
+#main-container {
+	background-color: white;
+	margin-left: 80px;
+	margin-bottom: 40px;
+	margin-right: -60px;
+	padding: 40px 35px 40px 35px;
+	width: 578px;
+	float: left;
+	border: 1px solid #dddddd;
+}
+
+#sidebar {
+	background-color: white;
+	padding: 35px 15px 35px 15px;
+	margin-left: 80px;
+	margin-bottom: 100px;
+	width: 198px;
+	float: left;
+	border: 1px solid #dddddd;
+}
+
+.profile-margin {
+	margin: 8px 20px 20px 0px;
+}
+
+.sans-serif {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.float-right {
+	float: right;
+	margin-right: 0px;
+}
+
+.float-left {
+	float: left;
+}
+
+.sidebar-hr {
+	border: 0px;
+	height: 0.5px;
+	background-color: lightgray;
+}
+
+.border-teal {
+  border-top: 8px solid #4aaaa5;
+}
+
+.banner {
+	background-color: #4aaaa5;
+	padding: 15px;
+	width: 245px;
+	text-align: center;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-size: 18px;
+	color: white;
+	position: absolute;
+	top: 70%;
+}
+
+.clearfix::after {
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+/* form stuff */
+input[type=text], select, textarea {
+    font-size: 16px;
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #cccccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: lightgray;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: lightgray;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: lightgray;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: lightgray;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4aaaa5;
+    font-size: 16px;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, change background color */
+input[type=submit]:hover {
+    background-color: rebeccapurple;
+}
+
+.form-container {
+	color: #777777;
+	padding-top: 20px;
+}
+
+/*media queries*/
+@media only screen and (max-width: 980px){
+	.myImg {
+		width: 50%
+	}
+	}
+	.modal-content {
+        height: 100%;
+    }
+
+
+@media only screen and (max-width: 768px){
+	.myImg, .myImgIdx {
+		width: 100%
+	}
+}
+
+@media only screen and (max-width: 640px){
+	.myImg, .myImgIdx {
+		width: 100%
+	}
+}
